@@ -12,8 +12,20 @@ To write a Python program that counts the number of lines in a text file `story.
 4. After processing all lines, print the `count` value, which represents the number of lines that do not start with `'T'`.
 
 ## 🧾 Program
-Add code here
+~~~
+def returnSum(myDict):
+    final=0
+    for i in myDict.values():
+        final+=i
+    return final
+#driver functions
+
+myDict = {'a': 100, 'b': 200, 'c': 300}
+print("Sum :",returnSum(myDict))
+~~~
 
 ## Output
+<img width="395" height="167" alt="439316102-584ecff1-9dfb-4670-b1c8-ee354a85ed3d" src="https://github.com/user-attachments/assets/cc509451-bbe0-4946-8f55-bddbbb94c393" />
 
 ## Result
+Thus,the program has been executed successfully.
